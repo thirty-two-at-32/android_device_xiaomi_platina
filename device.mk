@@ -72,7 +72,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(DEVICE_PATH)/overlay/packages/apps/overlays/NoCutoutOverlay
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
