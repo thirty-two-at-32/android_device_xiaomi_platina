@@ -69,6 +69,12 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
 
+# Partitions
+PRODUCT_PACKAGES += \
+    e2fsck_ramdisk \
+    tune2fs_ramdisk \
+    resize2fs_ramdisk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
