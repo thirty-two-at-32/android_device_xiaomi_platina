@@ -70,7 +70,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    PlatinaFrameworksBaseOverlay \
+    PlatinaSystemUIOverlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
