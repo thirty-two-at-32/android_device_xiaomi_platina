@@ -40,7 +40,7 @@ vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmorphohht4.0.so
 vendor/lib/libmibokeh_660.so
-vendor/lib/libmm-qcamera.so;DISABLE_CHECKELF
+vendor/lib/libmm-qcamera.so;DISABLE_DEPS
 vendor/lib/libmmcamera_arcsoftbokeh_lib.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_bokeh.so
@@ -577,9 +577,9 @@ vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 
 # Fingerprint sensor
--app/FingerprintExtensionService/FingerprintExtensionService.apk
+system/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/etc/permissions/com.fingerprints.extension.xml
-framework/com.fingerprints.extension.jar
+system/framework/com.fingerprints.extension.jar
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/libgf_ca.so
@@ -629,8 +629,8 @@ vendor/lib64/sensors.ssc.so
 # Thermal
 vendor/etc/thermal-engine.conf
 vendor/bin/thermal-engine
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+vendor/lib/libthermalclient.so
+vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
 # Wifi
