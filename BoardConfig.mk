@@ -41,7 +41,7 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/platina.config
+TARGET_KERNEL_CONFIG := platina_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
