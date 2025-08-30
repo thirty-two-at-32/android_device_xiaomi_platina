@@ -29,7 +29,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := false
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GMS := false
+TARGET_USES_PICO_GAPPS := true
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
