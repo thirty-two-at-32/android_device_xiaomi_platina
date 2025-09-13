@@ -90,10 +90,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.dual_role_usb
-
 # Wifi
 PRODUCT_PACKAGES += \
     PlatinaWifiOverlay
