@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_platina.mk
+    $(LOCAL_DIR)/lineage_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_platina-user \
-    infinity_platina-userdebug \
-    infinity_platina-eng
+    lineage_platina-user \
+    lineage_platina-userdebug \
+    lineage_platina-eng
