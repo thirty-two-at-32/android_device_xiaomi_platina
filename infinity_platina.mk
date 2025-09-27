@@ -19,11 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Infinity-X stuff
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
-INFINITY_BUILD_TYPE := UNOFFICIAL
-WITH_GAPPS := true
-INFINITY_MAINTAINER := SABAR
+# Inherit some common lunaris stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+WITH_GAPPS := false
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := false
