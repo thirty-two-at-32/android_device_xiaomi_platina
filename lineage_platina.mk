@@ -37,7 +37,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := infinity_platina
+PRODUCT_NAME := lineage_platina
 PRODUCT_MODEL := MI 8 Lite
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
